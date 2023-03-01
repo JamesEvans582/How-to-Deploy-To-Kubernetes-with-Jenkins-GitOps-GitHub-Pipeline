@@ -40,6 +40,43 @@ Argo installed via minikube / kubectl
 
 <img width="1792" alt="Screenshot 2023-03-01 at 18 35 51" src="https://user-images.githubusercontent.com/71371405/222234111-5d4ce133-da5c-4c57-976f-7c323775efd2.png">
 
+- now we need to generate our Github token...
+
+profile
+
+<img width="1792" alt="Screenshot 2023-03-01 at 18 40 05" src="https://user-images.githubusercontent.com/71371405/222235549-5d5add94-cf93-4a07-be3a-e08b98d48e6e.png">
+
+- settings -> developer settings -> token  
+<img width="1792" alt="Screenshot 2023-03-01 at 18 40 35" src="https://user-images.githubusercontent.com/71371405/222235878-6d1486f4-f842-4216-bf7a-df3d83939751.png">
+
+Select -> repo -> webhook -> notifications 
+
+<img width="1792" alt="Screenshot 2023-03-01 at 18 43 13" src="https://user-images.githubusercontent.com/71371405/222236180-f1a9e89f-b371-4e6c-b913-d3f8dc829b17.png">
+
+Generate token -> copy token -> place as password into Jenkins 
+
+
+<img width="1792" alt="Screenshot 2023-03-01 at 18 52 28" src="https://user-images.githubusercontent.com/71371405/222236916-264868ee-0266-4230-8080-1a1681bf492b.png">
+
+- Next stage 
+
+- Jenkins dashboard  -> new item -> name buildimage -> select pipeline -> ok 
+
+<img width="1792" alt="Screenshot 2023-03-01 at 18 54 31" src="https://user-images.githubusercontent.com/71371405/222241602-1550be58-6e8d-49ac-b84f-8e6af832160a.png">
+
+<img width="1792" alt="Screenshot 2023-03-01 at 19 00 33" src="https://user-images.githubusercontent.com/71371405/222241663-fbcf879d-c2d8-4255-9b82-2e429c949bc5.png">
+
+<img width="1792" alt="Screenshot 2023-03-01 at 19 01 13" src="https://user-images.githubusercontent.com/71371405/222241723-e62032ca-a9ee-4181-ba19-e531745d6bee.png">
+
+Create new pipeline -> call it updatemanifest -> 
+
+
+<img width="1792" alt="Screenshot 2023-03-01 at 19 14 55" src="https://user-images.githubusercontent.com/71371405/222242040-c8fe8728-c931-4531-bec0-785dc4513839.png">
+
+
+
+
+
 
 
 
